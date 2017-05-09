@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway|Satisfy|Archivo+Black');
+
+$black: #000;
+$white: #fff;
+$light-black: #333;
+
+$lg:1200px;
+$md1:992px;
+$md2:750px;
+$sm:580px;
+$xs:321px;
+
+$lato:"Lato";
+$raleway:"Raleway";
+$satisfy:"Satisfy";
+$archivo:Archivo Black;
+
+$solid:solid;
+$upper:uppercase;
+$trans:transparent;
+$abs:absolute;
+$rel:relative;
+
+body{ overflow-x:hidden;}
+
+.demo {
+	margin-top:50px;
+}
+

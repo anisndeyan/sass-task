@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway|Satisfy|Archivo+Black');
+
+body{
+	overflow-x:hidden;
+}
+
+.mynav{
+	background-color:#fff;
+	border-color: #fff;
+}
+.mynav li a{
+	text-transform: uppercase;
+	font-family: "Lato";
+	color:#000 !important;
+	font-weight: 400;
+	letter-spacing:2px !important;
+	padding: 10px 22px;
+	text-shadow: 1px 1px 1px #999;
+	font-size: 16px;
+}
+@media (max-width: 1200px) and (min-width: 992px){
+	.mynav li a {
+    	padding: 10px 16px;
+    	font-size: 15px;
+	}
+	.logo {
+	    width: 200px !important;
+	    margin-top: -70px !important;
+	}
+	.text-top{
+		font-size:25px !important;
+		font-weight:500 !important;
+		margin-top:50px !important;
+	}
+	.text-mid{
+		font-size:83px !important;
+		margin-top:-35px !important;
+	}
+}
+@media (max-width: 992px) and (min-width: 750px){
+	.mynav li a {
+    	padding: 10px 10px;
+    	font-size: 13px;
+    	letter-spacing:1px !important;
+	}
+	.logo {
+	    width: 160px !important;
+	    margin-top: -40px !important;
+	}
+	.text-top{
+		font-size:25px !important;
+		font-weight:500 !important;
+		margin-top:50px !important;
+	}
+	.text-mid{
+		font-size:83px !important;
+		margin-top:-35px !important;
+	}
+	.with{
+		margin-top:-25px !important;
+	}
+	.border{
+		width:250px !important;
+	}
+	.cont-image{
+		width:600px !important;
+		margin:0px auto !important;
+	}
+	.white{
+		margin-top:5px !important;
+		font-size: 20px !important;
+	}
+
+} 
+@media (max-width:767px) and (min-width:750px){
+	.track{
+		text-align:center !important;
+	}
+}
+@media (max-width:750px){
+	.logo{
+		width:160px !important;
+		margin-top:-33px !important;
+	}
+	#main-menu-collapse{
+		margin-top:20px;
+	}
+	.text-top{
+		font-size:21px !important;
+		font-weight:400 !important;
+		margin-top:30px !important;
+	}
+	.text-mid{
+		font-size:70px !important;
+		margin-top:-25px !important;
+	}
+	.with{
+		margin-top:-13px !important;
+	}
+	.text-with{
+		font-size:30px !important;
+	}
+	.border{
+		width:210px !important;
+	}
+	.cont-image{
+		width:500px !important;
+		margin:0px auto !important;
+	}
+	.white{
+		margin-top:0px !important;
+		font-size: 15px !important;
+		padding:8px 10px !important;
+	}
+	.email{
+	    padding: 10px 35px !important;
+	    font-size: 13px !important;
+	}
+	.button-pink{
+		padding: 10px 25px !important;
+	    font-size: 13px !important;
+	}
+	.track{
+		text-align:center !important;
+	}
+
+}
+
+@media (max-width:580px) and (min-width:380px){
+	.logo{
+		width:160px !important;
+		margin-top:-33px !important;
+	}
+	#main-menu-collapse{
+		margin-top:20px;
+	}
+	.text-top{
+		font-size:15px !important;
+		font-weight:400 !important;
+		margin-top:20px !important;
+	}
+	.text-mid{
+		font-size:50px !important;
+		margin-top:-15px !important;
+	}
+	.with{
+		margin-top:-7px !important;
+	}
+	.text-with{
+		font-size:20px !important;
+	}
+	.border{
+		width:150px !important;
+	}
+	.cont-image{
+		width:300px !important;
+		margin:0px auto !important;
+	}
+	.white{
+		margin-top:-20px !important;
+		font-size: 12px !important;
+		padding:4px 5px !important;
+		border: 2px solid #fff !important;
+	}
+	.email{
+	    padding: 8px 20px !important;
+	    margin-top:0px !important;
+	    font-size: 11px !important;
+	}
+	.button-pink{
+		margin-top:5px !important;
+		padding: 8px 20px !important;
+	    font-size: 12px !important;
+	}
+	.track{
+		text-align:center !important;
+	}
+	footer h1{
+		font-size:25px;
+	}
+
+}
+.demo{
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+.pull-right{
+	background-color:#fff;
+	border-color:#000;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px #999;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+	padding:5px 15px;
+}
+@media (max-width: 767px) and (min-width: 321px){
+	.mynav li {
+	    text-align: center;
+	    border-bottom: 1px solid #F1F1F1;
+	}
+	
+}
+.logo {
+    width: 225px;
+    margin-top: -84px;
+}
+.image{
+	position:relative;
+}
+.image-text{
+	position: absolute;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+.text-top{
+	font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-top: 100px;
+    font-weight:600;
+    font-family: "Archivo Black"
+}
+.text-mid{
+	font-size: 115px;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    margin-top: -45px;
+    font-family: "Archivo Black"
+}
+.with{
+    margin-top: -45px;
+}
+.border{
+	border-top: 3px solid #ffffff;
+    width: 370px;
+    display: inline-block;
+    height: 13px;
+}
+.text-with{
+	font-family: 'Satisfy';
+    font-size: 38px;
+    display: inline-block;
+    padding: 0 7px;
+}
+.cont-image{
+	height:50px;
+	width:825px;
+	margin:10px auto;
+}
+.white{
+	margin-top: 84px;
+    background-color: transparent;
+    color: white;
+    border: 3px solid #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 13px;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.white:hover{
+	background-color: transparent;
+    box-shadow: inset 0 0 35px #000000;
+	color:#fff;
+	transition:box-shadow ease-out 0.3s;
+}
+.centered{
+	text-align:center;
+	margin-top:40px;
+}
+.text{
+	font-weight:600;
+}
+.centered div{
+	border-left: 1px solid #f4f4f4;
+}
+.icons img{
+	width:70px;
+	height:80px;
+}
+.icons{
+	padding:0px 60px;
+}
+.centered div:first-child{
+	border-left: none;
+}
+.track .row{
+	margin-top:50px;
+}
+.track h2{
+	font-weight:800;
+}
+.green{
+	color:#6ec800;
+}
+.pink{
+	color:#e3007a
+}
+.orange{
+	color:#ff9600;
+}
+.desc{
+	font-family: 'Lato';
+    color: #666;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.1px;
+    padding-right: 50px;
+}
+
+footer{
+	margin-top:200px;
+	width:100%;
+}
+footer h1{
+	margin-top:100px;
+	font-weight:bolder;
+	letter-spacing: 1px;
+}
+.email{
+	margin-top:20px;
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+    padding: 14px 75px;
+    border-radius: 13px;
+    font-size: 14px;
+    font-weight: 800;
+}
+.email:hover{
+	box-shadow: inset 0 0 35px #666;
+	transition:box-shadow ease-out 0.3s; 
+}
+footer button{
+	text-transform: uppercase;
+}
+.button-pink{
+	margin-top:20px;
+    background-color:#e3007a;
+    color: white; 
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 13px;
+    font-weight: 800;
+}
+.button-pink:hover{
+	background-color:#e3007a;
+    color: white;
+    box-shadow: inset 0 0 35px #000000;
+	color:#fff;
+	transition:box-shadow ease-out 0.3s; 
+}
+.foot{
+	position:absolute;
+	z-index:-999;
+	width:100%;
+
+}
+
+.equal{
+    padding-top:5%;
+}
+.img{
+	margin:2% auto;
+}
