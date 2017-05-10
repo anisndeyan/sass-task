@@ -3,6 +3,7 @@
 $black: #000;
 $white: #fff;
 $light-black: #333;
+$light:#999;
 
 $lg:1200px;
 $md1:992px;
@@ -13,7 +14,7 @@ $xs:321px;
 $lato:"Lato";
 $raleway:"Raleway";
 $satisfy:"Satisfy";
-$archivo:Archivo Black;
+$archivo:"Archivo Black";
 
 $solid:solid;
 $upper:uppercase;
@@ -24,6 +25,383 @@ $rel:relative;
 body{ overflow-x:hidden;}
 
 .demo {
+	margin:{
+		top:50px;
+		bottom:18px;
+	}
+	button{
+		background-color:$white;
+		text-transform: $upper;
+		box-shadow: 1px 1px 1px $light;
+		padding:5px 15px;
+		border:{
+			color:$black;
+			radius:10px;
+		}
+		font:{
+			size:12px;
+			weight:600;
+		}
+	}}
+
+.navbar-default{
+	background-color:$white;
+	border-color: $white;
+	a{
+		color:$black !important;
+		letter-spacing:2px;
+		padding: 10px 22px;
+		text:{
+			transform: $upper;
+			shadow: 1px 1px 1px $light-black;
+		}
+		font:{
+			family: $lato;
+			weight: 400;
+			size: 16px;
+		}	
+	}
+	img {
+	    width: 225px;
+	    margin-top: -65px;
+	}}
+
+.image{
+	position:$rel;
+	text-transform: $upper;
+	.text {
+		position: $abs;
+	    top: 0;
+	    left: 0;
+	    color: $white;
+	    width: 100%;
+	    text-align: center;
+	    .top{
+			font:{
+				size: 35.4px;
+				weight:600;
+				family: $archivo;
+			}
+		    letter-spacing: 0.5px;
+		    margin-top: 100px;
+	    }
+	    .mid{
+	    	font:{
+	    		size: 116px;
+	    		family: $archivo;
+	    	}
+		    letter-spacing: -0.5px;
+		    margin-top: -45px;
+	    }
+	    .with{
+	    	margin-top: -45px;
+	    	text-transform: lowercase;
+	    	.border{
+	    		border-top: 3px $solid $white;
+			    width: 370px;
+			    display: inline-block;
+			    height: 13px;
+			    margin-left:4px;
+	    	}
+	    	.text-with{
+	    		font:{
+	    			family: $satisfy;
+	    			size: 38px;
+	    		}
+			    display: inline-block;
+			    padding: 0 7px;
+	    	}
+	    }
+	    	.cont-image{
+				height:50px;
+				width:825px;
+				margin:10px auto;
+			}
+			button{
+				margin-top: 65px;
+			    background-color: $trans;
+			    color: $white;
+			    border: 3px $solid $white;
+			    padding: 10px 20px;
+			    border-radius: 13px;
+			    font:{
+			    	size: 25px;
+			    	weight: 800;
+			    }
+			    letter-spacing: 1px;
+			    &:hover{
+					background-color: $trans;
+				    box-shadow: inset 0 0 35px $black;
+					color:$white;
+					transition:box-shadow ease-out 0.3s;
+			    }
+			}
+	}}
+
+.centered{
+	text-align:center;
+	margin-top:40px;
+	h5 {font-weight:600;}
+	.first {margin-top:31px;}
+	.second {margin-top:16px;}
+	div {border-left: 1px $solid #f4f4f4;}
+	.icons {padding:0px 60px;}}
+
+.track {
 	margin-top:50px;
+	h2 {font-weight:800;}
+	.green {color:#6ec800;}
+	.pink {color:#e3007a;}
+	.orange {color:#ff9600;}
+	p {
+		font-family: $lato;
+	    color: #666;
+	    font-size: 16px;
+	    line-height: 25px;
+	    letter-spacing: -0.2px;
+	    padding-right: 50px;
+	}
+	.equal{
+	    padding-top:5%;
+	}
+	.img{
+		margin:2% auto;
+	}
 }
+
+footer{
+	margin-top:200px;
+	width:100%;
+	h1{
+		margin-top:100px;
+		font-weight:bolder;
+		letter-spacing: 1px;
+	}
+	.email{
+		margin-top:20px;
+	    background-color: $trans;
+	    color: #333;
+	    border: 1px $solid $light-black;
+	    padding: 14px 75px;
+	    border-radius: 13px;
+	    font:{
+	    	size: 14px;
+	    	weight: 800;
+	    }
+	    &:hover{
+	    	box-shadow: inset 0 0 35px #666;
+			transition:box-shadow ease-out 0.3s; 
+	    }
+	}
+	button {text-transform: $upper;}
+	.button-pink{
+		margin-top:20px;
+	    background-color:#e3007a;
+	    color: white; 
+	    padding: 10px 20px;
+	    font-size: 25px;
+	    border-radius: 13px;
+	    font-weight: 800;
+	    &:hover{
+	    	background-color:#e3007a;
+		    color: $white;
+		    box-shadow: inset 0 0 35px $black;
+			transition:box-shadow ease-out 0.3s; 
+	    }
+	}
+	img{
+		position:absolute;
+		z-index:-999;
+		width:100%;
+	}
+}
+@media (max-width: $lg) and (min-width: $md1){
+	.navbar-default{
+		a{
+			padding: 10px 16px;
+	    	font-size: 15px;
+		}
+		img{
+			width: 200px !important;
+	    	margin-top: -70px !important;
+		}
+    	
+	}
+	.image{
+		button{
+			margin-top:25px !important;
+			font-size: 20px !important;
+		}
+	}
+}
+@media (max-width: $md1) and (min-width: $md2){
+	.navbar-default{
+		a {
+    	padding: 10px 10px;
+    	font-size: 13px;
+    	letter-spacing:1px !important;
+		}
+		img{
+			width: 160px !important;
+	   		margin-top: -40px !important;
+		}
+	} 
+	.top{
+		font-size:25px !important;
+		font-weight:500 !important;
+		margin-top:50px !important;
+	}
+	.mid{
+		font-size:83px !important;
+		margin-top:-35px !important;
+	}
+	.with{
+		margin-top:-25px !important;
+	}
+	.border{
+		width:250px !important;
+	}
+
+	.cont-image{
+		width:600px !important;
+		margin:0px auto !important;
+	}
+	.image{
+		button{
+			margin-top:5px !important;
+			font-size: 20px !important;
+		}
+	}
+} 
+@media (max-width:$md2){
+	.navbar-default{
+		img{
+			width:160px !important;
+			margin-top:-33px !important;
+		}
+	} 
+	#main-menu-collapse{
+		margin-top:20px;
+	}
+	.top{
+		font-size:21px !important;
+		font-weight:400 !important;
+		margin-top:30px !important;
+	}
+	.mid{
+		font-size:70px !important;
+		margin-top:-25px !important;
+	}
+	.with{
+		margin-top:-13px !important;
+	}
+	.text-with{
+		font-size:30px !important;
+	}
+	.border{
+		width:210px !important;
+	}
+	.cont-image{
+		width:500px !important;
+		margin:0px auto !important;
+	}
+	.image{
+		button{
+			margin-top:0px !important;
+			font-size: 15px !important;
+			padding:8px 10px !important;
+		}
+	}
+	.email{
+	    padding: 10px 35px !important;
+	    font-size: 13px !important;
+	}
+	.button-pink{
+		padding: 10px 25px !important;
+	    font-size: 13px !important;
+	}
+	.track{
+		text-align:center !important;
+	}
+
+}
+@media (max-width:580px) and (min-width:380px){
+	.navbar-default{
+		img{
+			width:160px !important;
+			margin-top:-33px !important;
+		}
+	} 
+	#main-menu-collapse{
+		margin-top:20px;
+	}
+	.top{
+		font-size:15px !important;
+		font-weight:400 !important;
+		margin-top:20px !important;
+	}
+	.mid{
+		font-size:50px !important;
+		margin-top:-15px !important;
+	}
+	.with{
+		margin-top:-7px !important;
+	}
+	.text-with{
+		font-size:20px !important;
+	}
+	.border{
+		width:150px !important;
+	}
+	.cont-image{
+		width:300px !important;
+		margin:0px auto !important;
+	}
+	.image{
+		button{
+			margin-top:-20px !important;
+			font-size: 12px !important;
+			padding:4px 5px !important;
+			border: 2px solid #fff !important;
+		}
+	}
+	.email{
+	    padding: 8px 20px !important;
+	    margin-top:0px !important;
+	    font-size: 11px !important;
+	}
+	.button-pink{
+		margin-top:5px !important;
+		padding: 8px 20px !important;
+	    font-size: 12px !important;
+	}
+	.track{
+		text-align:center !important;
+	}
+	footer h1{
+		font-size:25px;
+	}
+
+}
+
+@media (max-width:767px) and (min-width:$md2){
+	.track{
+		text-align:center !important;
+	}
+}
+
+
+@media (max-width: 767px) and (min-width: 321px){
+	.navbar-default{
+		li {
+		    text-align: center;
+		    border-bottom: 1px $solid #F1F1F1;
+		}
+	} 
+	
+}
+
+
+
+
 

@@ -3,4 +3,281 @@ body {
   overflow-x: hidden; }
 
 .demo {
+  margin-top: 50px;
+  margin-bottom: 18px; }
+  .demo button {
+    background-color: #fff;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 1px #999;
+    padding: 5px 15px;
+    border-color: #000;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600; }
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff; }
+  .navbar-default a {
+    color: #000 !important;
+    letter-spacing: 2px;
+    padding: 10px 22px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #333;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 16px; }
+  .navbar-default img {
+    width: 225px;
+    margin-top: -65px; }
+
+.image {
+  position: relative;
+  text-transform: uppercase; }
+  .image .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    text-align: center; }
+    .image .text .top {
+      font-size: 35.4px;
+      font-weight: 600;
+      font-family: "Archivo Black";
+      letter-spacing: 0.5px;
+      margin-top: 100px; }
+    .image .text .mid {
+      font-size: 116px;
+      font-family: "Archivo Black";
+      letter-spacing: -0.5px;
+      margin-top: -45px; }
+    .image .text .with {
+      margin-top: -45px;
+      text-transform: lowercase; }
+      .image .text .with .border {
+        border-top: 3px solid #fff;
+        width: 370px;
+        display: inline-block;
+        height: 13px;
+        margin-left: 4px; }
+      .image .text .with .text-with {
+        font-family: "Satisfy";
+        font-size: 38px;
+        display: inline-block;
+        padding: 0 7px; }
+    .image .text .cont-image {
+      height: 50px;
+      width: 825px;
+      margin: 10px auto; }
+    .image .text button {
+      margin-top: 65px;
+      background-color: transparent;
+      color: #fff;
+      border: 3px solid #fff;
+      padding: 10px 20px;
+      border-radius: 13px;
+      font-size: 25px;
+      font-weight: 800;
+      letter-spacing: 1px; }
+      .image .text button:hover {
+        background-color: transparent;
+        box-shadow: inset 0 0 35px #000;
+        color: #fff;
+        transition: box-shadow ease-out 0.3s; }
+
+.centered {
+  text-align: center;
+  margin-top: 40px; }
+  .centered h5 {
+    font-weight: 600; }
+  .centered .first {
+    margin-top: 31px; }
+  .centered .second {
+    margin-top: 16px; }
+  .centered div {
+    border-left: 1px solid #f4f4f4; }
+  .centered .icons {
+    padding: 0px 60px; }
+
+.track {
   margin-top: 50px; }
+  .track h2 {
+    font-weight: 800; }
+  .track .green {
+    color: #6ec800; }
+  .track .pink {
+    color: #e3007a; }
+  .track .orange {
+    color: #ff9600; }
+  .track p {
+    font-family: "Lato";
+    color: #666;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.2px;
+    padding-right: 50px; }
+  .track .equal {
+    padding-top: 5%; }
+  .track .img {
+    margin: 2% auto; }
+
+footer {
+  margin-top: 200px;
+  width: 100%; }
+  footer h1 {
+    margin-top: 100px;
+    font-weight: bolder;
+    letter-spacing: 1px; }
+  footer .email {
+    margin-top: 20px;
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+    padding: 14px 75px;
+    border-radius: 13px;
+    font-size: 14px;
+    font-weight: 800; }
+    footer .email:hover {
+      box-shadow: inset 0 0 35px #666;
+      transition: box-shadow ease-out 0.3s; }
+  footer button {
+    text-transform: uppercase; }
+  footer .button-pink {
+    margin-top: 20px;
+    background-color: #e3007a;
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 13px;
+    font-weight: 800; }
+    footer .button-pink:hover {
+      background-color: #e3007a;
+      color: #fff;
+      box-shadow: inset 0 0 35px #000;
+      transition: box-shadow ease-out 0.3s; }
+  footer img {
+    position: absolute;
+    z-index: -999;
+    width: 100%; }
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .navbar-default a {
+    padding: 10px 16px;
+    font-size: 15px; }
+  .navbar-default img {
+    width: 200px !important;
+    margin-top: -70px !important; }
+  .image button {
+    margin-top: 25px !important;
+    font-size: 20px !important; } }
+
+@media (max-width: 992px) and (min-width: 750px) {
+  .navbar-default a {
+    padding: 10px 10px;
+    font-size: 13px;
+    letter-spacing: 1px !important; }
+  .navbar-default img {
+    width: 160px !important;
+    margin-top: -40px !important; }
+  .top {
+    font-size: 25px !important;
+    font-weight: 500 !important;
+    margin-top: 50px !important; }
+  .mid {
+    font-size: 83px !important;
+    margin-top: -35px !important; }
+  .with {
+    margin-top: -25px !important; }
+  .border {
+    width: 250px !important; }
+  .cont-image {
+    width: 600px !important;
+    margin: 0px auto !important; }
+  .image button {
+    margin-top: 5px !important;
+    font-size: 20px !important; } }
+
+@media (max-width: 750px) {
+  .navbar-default img {
+    width: 160px !important;
+    margin-top: -33px !important; }
+  #main-menu-collapse {
+    margin-top: 20px; }
+  .top {
+    font-size: 21px !important;
+    font-weight: 400 !important;
+    margin-top: 30px !important; }
+  .mid {
+    font-size: 70px !important;
+    margin-top: -25px !important; }
+  .with {
+    margin-top: -13px !important; }
+  .text-with {
+    font-size: 30px !important; }
+  .border {
+    width: 210px !important; }
+  .cont-image {
+    width: 500px !important;
+    margin: 0px auto !important; }
+  .image button {
+    margin-top: 0px !important;
+    font-size: 15px !important;
+    padding: 8px 10px !important; }
+  .email {
+    padding: 10px 35px !important;
+    font-size: 13px !important; }
+  .button-pink {
+    padding: 10px 25px !important;
+    font-size: 13px !important; }
+  .track {
+    text-align: center !important; } }
+
+@media (max-width: 580px) and (min-width: 380px) {
+  .navbar-default img {
+    width: 160px !important;
+    margin-top: -33px !important; }
+  #main-menu-collapse {
+    margin-top: 20px; }
+  .top {
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    margin-top: 20px !important; }
+  .mid {
+    font-size: 50px !important;
+    margin-top: -15px !important; }
+  .with {
+    margin-top: -7px !important; }
+  .text-with {
+    font-size: 20px !important; }
+  .border {
+    width: 150px !important; }
+  .cont-image {
+    width: 300px !important;
+    margin: 0px auto !important; }
+  .image button {
+    margin-top: -20px !important;
+    font-size: 12px !important;
+    padding: 4px 5px !important;
+    border: 2px solid #fff !important; }
+  .email {
+    padding: 8px 20px !important;
+    margin-top: 0px !important;
+    font-size: 11px !important; }
+  .button-pink {
+    margin-top: 5px !important;
+    padding: 8px 20px !important;
+    font-size: 12px !important; }
+  .track {
+    text-align: center !important; }
+  footer h1 {
+    font-size: 25px; } }
+
+@media (max-width: 767px) and (min-width: 750px) {
+  .track {
+    text-align: center !important; } }
+
+@media (max-width: 767px) and (min-width: 321px) {
+  .navbar-default li {
+    text-align: center;
+    border-bottom: 1px solid #F1F1F1; } }
